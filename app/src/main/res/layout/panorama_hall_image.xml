@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/id_index_gallery_item_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="5dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/panorama_hall" />
+
+    <TextView
+        android:id="@+id/id_index_gallery_item_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_index_gallery_item_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#ff0000"
+        android:textSize="12dp" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/arrow"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="400dp"/>
+
+    <Button
+    android:id="@+id/firstBtn"
+    android:layout_width="140dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="130dp"
+    android:layout_marginLeft="400dp"
+    android:background="@drawable/first_btn"
+    android:clickable="true"
+    android:text="Projector"
+    android:textColor="#FFF"
+    android:textSize="18sp"
+    />
+
+    <Button
+        android:id="@+id/secondBtn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="450dp"
+        android:background="@drawable/first_btn"
+        android:clickable="true"
+        android:text="Audio System"
+        android:textColor="#FFF"
+        android:textSize="18sp"
+        />
+
+    <Button
+        android:id="@+id/thirdBtn"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="1100dp"
+        android:background="@drawable/first_btn"
+        android:clickable="true"
+        android:text="SEATS"
+        android:textColor="#FFF"
+        android:textSize="18sp"
+        />
+
+    <Button
+        android:id="@+id/forthBtn"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="1200dp"
+        android:background="@drawable/first_btn"
+        android:clickable="true"
+        android:text="LIGHTING"
+        android:textColor="#FFF"
+        android:textSize="18sp"
+        />
+
+    <Button
+        android:id="@+id/fifthBtn"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="690dp"
+        android:background="@drawable/first_btn"
+        android:clickable="true"
+        android:text="SOCKETS"
+        android:textColor="#FFF"
+        android:textSize="18sp"
+        />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/arrow2"
+        android:layout_marginTop="397dp"
+        android:layout_marginLeft="730dp"/>
+
+</RelativeLayout>

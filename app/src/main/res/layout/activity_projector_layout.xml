@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProjectorLayoutActivity">
+
+    <ImageView
+        android:id="@+id/popup_picture"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="152dp"
+        android:elevation="6dp"
+        android:src="@drawable/maintenance"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/overbox"
+        />
+
+    <LinearLayout
+        android:id="@+id/successful_Popup"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="204dp"
+        android:background="@drawable/popup_background"
+        android:elevation="4dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/overbox">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Success!"
+            android:textColor="#343434"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="40dp"
+            android:lineSpacingExtra="4dp"
+            android:text="  Thanks for reporting, we will
+ send men to repair right away!"
+            android:textColor="#343434"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/closebtn"
+            android:layout_width="180dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="54dp"
+            android:background="@drawable/splash_button"
+            android:text="CLOSE"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        tools:ignore="MissingConstraints">
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/overbox"
+        android:orientation="vertical"
+        android:elevation="3dp"
+        android:background="@drawable/overbox"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="vertical">
+
+        <HorizontalScrollView
+            android:id="@+id/layout_Seat"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"/>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
